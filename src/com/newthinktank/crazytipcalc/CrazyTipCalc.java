@@ -15,7 +15,7 @@ public class CrazyTipCalc extends Activity {
 	
 	private static final String TOTAL_BILL = "TOTAL_BILL";
 	private static final String CURRENT_TIP = "CURRENT_TIP";
-	private static final String BILL_WITHOUT_TIP = "BILL_WITHOUT_TIP";
+	private static    final String BILL_WITHOUT_TIP = "BILL_WITHOUT_TIP";
 	
 	private double billBeforeTip; // Users bill before tip
 	private double tipAmount; // Tip amount
@@ -23,8 +23,9 @@ public class CrazyTipCalc extends Activity {
 	
 	EditText billBeforeTipET;
 	EditText tipAmountET;
-	EditText finalBillET;
+	EditText  finalBillET;
 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
